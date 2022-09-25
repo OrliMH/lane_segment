@@ -1,5 +1,6 @@
 # lane_segment
-A pytorch implemented lane segmentation project with unet/deeplabv3plus network architecture. ## dataset
+A pytorch implemented lane segmentation project with unet/deeplabv3plus network architecture. 
+# dataset
 The training dataset can be download here: https://aistudio.baidu.com/aistudio/datasetDetail/1919
 # dataset spliting
 Before training, split the dataset into training set and validating set  
