@@ -1,15 +1,14 @@
 # lane_segment
-A pytorch implemented lane segmentation project with unet/deeplabv3plus network architecture. 
-## dataset
+A pytorch implemented lane segmentation project with unet/deeplabv3plus network architecture. ## dataset
 The training dataset can be download here: https://aistudio.baidu.com/aistudio/datasetDetail/1919
-## dataset spliting
+# dataset spliting
 Before training, split the dataset into training set and validating set  
 and save their paths in a train.csv and val.csv seperately in data_list  
 directory.  
 Then modify the data path in train.py (line 199 and line 203) 
-## training
+# training
 nohup python lane_segment/train.py > lane_segment/train.log &  
-## result  
+# result  
 |loss      |optimizer    |lr        |net        |mIOU       |
 | ---      | ---         | ---      | ---       | ---       |
 |CE        |SGD          |step_lr   |unet       |0.47       |
